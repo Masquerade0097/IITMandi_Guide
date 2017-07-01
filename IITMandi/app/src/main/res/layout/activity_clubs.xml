@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingTop="24dp">
+            android:paddingTop="18dp">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/programming_club"
@@ -75,12 +75,12 @@
                 android:layout_marginRight="@dimen/card_margin">
 
                 <LinearLayout
-                    android:paddingBottom="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingLeft="10dp"
+                    android:paddingBottom="@dimen/card_margin"
+                    android:paddingRight="@dimen/card_margin"
+                    android:paddingLeft="@dimen/card_margin"
                     android:paddingTop="10dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:orientation="horizontal">
                     <ImageView
                         android:layout_weight="1"
@@ -130,8 +130,8 @@
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Robotics Club"
-                    android:fontFamily="sans-serif" />
+                    android:text="Robotronics Club"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"  />
 
                 </LinearLayout>
 
@@ -210,7 +210,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/art_geeks"
+                android:id="@+id/hnt_club"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/card_margin"
@@ -238,12 +238,192 @@
                     android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Art Geeks"
+                    android:text="Hiking and Trekking Club"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/literary_society"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        android:layout_width="100dp"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/clubs"/>
+
+                    <TextView
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Literary Society"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/designauts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        android:layout_width="100dp"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/clubs"/>
+
+                    <TextView
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Designauts"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/artgeeks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        android:layout_width="100dp"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/clubs"/>
+
+                    <TextView
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Art Geeks"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/e_cell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        android:layout_width="100dp"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/clubs"/>
+
+                    <TextView
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Entrepreneurship Cell"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cnp_cell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_height="60dp"
+                        android:scaleType="centerCrop"
+                        android:layout_width="100dp"
+                        android:layout_marginRight="25dp"
+                        android:src="@drawable/clubs"/>
+
+                    <TextView
+                        android:layout_weight="3"
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Career and Placement Cell"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
 
         </LinearLayout>
 
