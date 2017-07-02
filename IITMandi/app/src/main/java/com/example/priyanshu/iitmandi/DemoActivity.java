@@ -40,6 +40,54 @@ public class DemoActivity extends AppCompatActivity {
                   Toast.makeText(view.getContext(),"Open the List Of Numbers",Toast.LENGTH_SHORT).show();
             }
         });
+
+        CardView sceeCard = (CardView) findViewById(R.id.sceeCard);
+        sceeCard.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
+//                startActivity(facultyIntent);
+
+                Toast.makeText(view.getContext(),"JUst a tupple",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        CardView sbsCard = (CardView) findViewById(R.id.sbsCard);
+        sbsCard.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
+//                startActivity(facultyIntent);
+
+                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        CardView seCard = (CardView) findViewById(R.id.seCard);
+        seCard.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
+//                startActivity(facultyIntent);
+
+                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        CardView shssCard = (CardView) findViewById(R.id.shssCard);
+        shssCard.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view){
+//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
+//                startActivity(facultyIntent);
+
+                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void loadBackdrop() {
@@ -53,4 +101,6 @@ public class DemoActivity extends AppCompatActivity {
 //        getMenuInflater().inflate(R.menu.sample_actions, menu);
 //        return true;
 //    }
+
+
 }
