@@ -12,27 +12,27 @@
             android:title="News and FAQ" />
         <item
             android:id="@+id/nav_clubs"
-            android:icon="@drawable/ic_event"
+            android:icon="@drawable/ic_clubs"
             android:title="Clubs" />
         <item
             android:id="@+id/nav_faculty"
-            android:icon="@drawable/ic_headset"
+            android:icon="@drawable/ic_faculty"
             android:title="Faculty" />
         <item
             android:id="@+id/nav_contacts"
-            android:icon="@drawable/ic_forum"
+            android:icon="@drawable/ic_contacts"
             android:title="Contacts" />
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/ic_forum"
+            android:icon="@drawable/ic_map"
             android:title="Map" />
         <item
             android:id="@+id/nav_acad_calender"
-            android:icon="@drawable/ic_forum"
+            android:icon="@drawable/ic_event"
             android:title="Academic Calender" />
         <item
             android:id="@+id/nav_fest"
-            android:icon="@drawable/ic_forum"
+            android:icon="@drawable/ic_fest"
             android:title="Tech/Cult Fest" />
 
     </group>
@@ -40,13 +40,13 @@
     <item android:title="Other">
         <menu>
             <item
-                android:icon="@drawable/ic_dashboard"
+                android:icon="@drawable/ic_about"
                 android:title="About Us" />
             <item
-                android:icon="@drawable/ic_forum"
+                android:icon="@drawable/ic_rate"
                 android:title="Rate Us" />
             <item
-                android:icon="@drawable/ic_forum"
+                android:icon="@drawable/ic_developer"
                 android:title="Developer" />
         </menu>
     </item>
