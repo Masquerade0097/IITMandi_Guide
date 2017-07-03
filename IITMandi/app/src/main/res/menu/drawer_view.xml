@@ -3,31 +3,51 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_overview"
             android:icon="@drawable/ic_dashboard"
-            android:title="Home" />
+            android:title="Overview" />
         <item
-            android:id="@+id/nav_messages"
-            android:icon="@drawable/ic_event"
-            android:title="Messages" />
-        <item
-            android:id="@+id/nav_friends"
-            android:icon="@drawable/ic_headset"
-            android:title="Friends" />
-        <item
-            android:id="@+id/nav_discussion"
+            android:id="@+id/nav_news"
             android:icon="@drawable/ic_forum"
-            android:title="Discussion" />
+            android:title="News and FAQ" />
+        <item
+            android:id="@+id/nav_clubs"
+            android:icon="@drawable/ic_event"
+            android:title="Clubs" />
+        <item
+            android:id="@+id/nav_faculty"
+            android:icon="@drawable/ic_headset"
+            android:title="Faculty" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_forum"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_forum"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_acad_calender"
+            android:icon="@drawable/ic_forum"
+            android:title="Academic Calender" />
+        <item
+            android:id="@+id/nav_fest"
+            android:icon="@drawable/ic_forum"
+            android:title="Tech/Cult Fest" />
+
     </group>
 
-    <item android:title="Sub items">
+    <item android:title="Other">
         <menu>
             <item
                 android:icon="@drawable/ic_dashboard"
-                android:title="Sub item 1" />
+                android:title="About Us" />
             <item
                 android:icon="@drawable/ic_forum"
-                android:title="Sub item 2" />
+                android:title="Rate Us" />
+            <item
+                android:icon="@drawable/ic_forum"
+                android:title="Developer" />
         </menu>
     </item>
 

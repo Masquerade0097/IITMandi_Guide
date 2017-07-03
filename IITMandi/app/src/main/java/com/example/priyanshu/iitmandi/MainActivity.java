@@ -130,6 +130,17 @@ public class MainActivity extends AppCompatActivity {
 
         switch(item.getItemId()){
             case R.id.about_app:
+//                MenuItem about_app = (MenuItem) findViewById(R.id.about_app);
+//                about_app.setOnMenuItemClickListener(new MenuItem().OnMenuItemClickListener{
+//
+//                    @Override
+//                    public void onClick(View view){
+////                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
+////                startActivity(facultyIntent);
+//
+//                        Toast.makeText(view.getContext(),"JUst a tupple",Toast.LENGTH_SHORT).show();
+//                    }
+//                });
                 return true;
             case R.id.rate_us:
                 return true;
