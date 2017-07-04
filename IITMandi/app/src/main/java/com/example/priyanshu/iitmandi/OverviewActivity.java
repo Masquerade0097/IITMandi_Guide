@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import static com.example.priyanshu.iitmandi.R.id.directorCard;
-
 /**
  * Created by priyanshu on 4/7/17.
  */
