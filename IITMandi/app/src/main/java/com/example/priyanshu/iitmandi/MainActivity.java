@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                                     int position, long id) {
             int pos = position;
                 if(pos==0){
-                    Intent intent = new Intent(MainActivity.this,DemoActivity.class);
+                    Intent intent = new Intent(MainActivity.this,OverviewActivity.class);
                     startActivity(intent);
                 }
                 if(pos==1){
