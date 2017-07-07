@@ -34,6 +34,9 @@
         <activity
             android:name=".ClubDetailActivity"
             android:label="@string/title_activity_club_detail"></activity>
+        <activity
+            android:name=".OverviewActivity"
+            android:label="Overview"></activity>
     </application>
 
 </manifest>

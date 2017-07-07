@@ -70,7 +70,7 @@
             <android.support.v7.widget.CardView
                 android:id="@+id/vision"
                 android:layout_width="match_parent"
-                android:layout_height="95dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/card_margin"
                 android:layout_marginLeft="@dimen/card_margin"
                 android:layout_marginRight="@dimen/card_margin">
@@ -90,7 +90,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="To be a leader in science and technology education, knowledge creation and innovation, in an India marching towards a just, inclusive and sustainable society." />
+                        android:text="\nTo be a leader in science and technology education, knowledge creation and innovation, in an India marching towards a just, inclusive and sustainable society." />
 
                 </LinearLayout>
 
@@ -99,7 +99,7 @@
             <android.support.v7.widget.CardView
                 android:id="@+id/mission"
                 android:layout_width="match_parent"
-                android:layout_height="95dp"
+                android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/card_margin"
                 android:layout_marginLeft="@dimen/card_margin"
                 android:layout_marginRight="@dimen/card_margin">
@@ -125,7 +125,37 @@
 
             </android.support.v7.widget.CardView>
 
+            <RelativeLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--<TextView-->
+                    <!--style="@style/Widget.CardContent"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Follow Us"/>-->
+
+                <ImageView
+                    android:id="@+id/fb"
+                    android:layout_marginLeft="175dp"
+                    android:paddingLeft="3dp"
+                    android:paddingBottom="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/fb"/>
+
+                <ImageView
+                    android:id="@+id/youtube"
+                    android:paddingBottom="5dp"
+                    android:layout_alignRight="@id/fb"
+                    android:layout_marginRight="50dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/youtube"/>
+
+            </RelativeLayout>
         </LinearLayout>
+
 
     </android.support.v4.widget.NestedScrollView>
 

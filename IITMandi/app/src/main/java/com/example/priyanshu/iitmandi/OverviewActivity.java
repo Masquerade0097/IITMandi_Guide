@@ -1,5 +1,7 @@
 package com.example.priyanshu.iitmandi;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -57,41 +59,32 @@ public class OverviewActivity extends AppCompatActivity {
             }
         });
 
-        CardView sbsCard = (CardView) findViewById(R.id.sbsCard);
-        sbsCard.setOnClickListener(new View.OnClickListener(){
+        ImageView fb = (ImageView) findViewById(R.id.fb);
+        fb.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view){
-//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
-//                startActivity(facultyIntent);
+                String url = "https://www.facebook.com/timothy.gonsalves.71";
+                Intent openFacebook = new Intent(Intent.ACTION_VIEW);
+                openFacebook.setData(Uri.parse(url));
+                startActivity(openFacebook);
 
-                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
             }
         });
 
-        CardView seCard = (CardView) findViewById(R.id.seCard);
-        seCard.setOnClickListener(new View.OnClickListener(){
+        ImageView youtube = (ImageView) findViewById(R.id.youtube);
+        youtube.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view){
-//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
-//                startActivity(facultyIntent);
+                String url = "http://www.youtube.com/channel/UCSybolnMMi_8vc5OoX36Vwg";
+                Intent openYoutube = new Intent(Intent.ACTION_VIEW);
+                openYoutube.setData(Uri.parse(url));
+                startActivity(openYoutube);
 
-                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
             }
         });
 
-        CardView shssCard = (CardView) findViewById(R.id.shssCard);
-        shssCard.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view){
-//                Intent facultyIntent = new Intent(DemoActivity.this,FacultyActivity.class);
-//                startActivity(facultyIntent);
-
-                Toast.makeText(view.getContext(),"tupple of sbs",Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
     private void loadBackdrop() {

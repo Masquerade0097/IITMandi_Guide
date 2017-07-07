@@ -100,11 +100,12 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_club_detail">ClubDetailActivity</string>
-    <string name="Mission">"To create knowledge through team effort and individually for the benefit of society.\n"
-    "To impart education to produce professionals capable of leading efforts towards innovative products and processes for the development of the Himalayan region in particular and our country and humanity in general.\n"
-    "To inculcate a spirit of entrepreneurship and to impart the ability to devise globally recognized solutions for the problems of society and industry, particularly in the fragile eco-system of the Himalayas.\n"
-    "To train teachers capable of inspiring the next generation of engineers, scientists and researchers.\n"
-    "To work intensely with industry in pursuit of the above goals of education and research, leading to the development of cutting edge and commercially-viable technologies.\n"
-    "To operate in an ambience marked by overriding respect for ability and merit.\n
+    <string name="Mission">
+        "\n\u2022 To create knowledge through team effort and individually for the benefit of society.\n\n"
+    "\u2022 To impart education to produce professionals capable of leading efforts towards innovative products and processes for the development of the Himalayan region in particular and our country and humanity in general.\n\n"
+    "\u2022 To inculcate a spirit of entrepreneurship and to impart the ability to devise globally recognized solutions for the problems of society and industry, particularly in the fragile eco-system of the Himalayas.\n\n"
+    "\u2022 To train teachers capable of inspiring the next generation of engineers, scientists and researchers.\n\n"
+    "\u2022 To work intensely with industry in pursuit of the above goals of education and research, leading to the development of cutting edge and commercially-viable technologies.\n\n"
+    "\u2022 To operate in an ambience marked by overriding respect for ability and merit.
 "</string>
 </resources>
