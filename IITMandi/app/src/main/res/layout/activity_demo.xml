@@ -65,9 +65,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingTop="18dp">
+            android:paddingTop="18dp"
+            android:background="#646C74">
 
             <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D3D3D3"
                 android:id="@+id/directorCard"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -97,6 +99,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D3D3D3"
                 android:id="@+id/sceeCard"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -126,6 +129,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D3D3D3"
                 android:id="@+id/sbsCard"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -155,6 +159,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D3D3D3"
                 android:id="@+id/seCard"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"
@@ -184,6 +189,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                app:cardBackgroundColor="#D3D3D3"
                 android:id="@+id/shssCard"
                 android:layout_width="match_parent"
                 android:layout_height="95dp"

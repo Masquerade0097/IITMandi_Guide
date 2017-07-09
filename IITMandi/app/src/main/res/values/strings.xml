@@ -108,4 +108,6 @@
     "\u2022 To work intensely with industry in pursuit of the above goals of education and research, leading to the development of cutting edge and commercially-viable technologies.\n\n"
     "\u2022 To operate in an ambience marked by overriding respect for ability and merit.
 "</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
 </resources>
